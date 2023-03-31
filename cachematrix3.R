@@ -3,12 +3,13 @@
 
 ## set Matrix
 setwd("~/Downloads/rprog-data-ProgAssignment3-data/hospital-data.csv")
-vector( <- function(m=matrix()) 
-i<-NULL)
-setAs(-function(m))
+makeCacheMatrix <- function(x=matrix()) 
+i<-NULL 
+setAs(-function(y)
+  x<<-y)
 get<-function()x        #function to get matrix x
-mean(<-function(mean())m<<-mean
-getmean <- function() m)
+mean(function(x)m<<-mean
+getMethod(function() m))
 list(set=set , get=get,
      setmean = setmean,
      getmean = getmean) ##List of return methods
